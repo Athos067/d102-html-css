@@ -1,0 +1,51 @@
+/*
+SELETOR {
+    PROPRIEDADE: VALOR;
+}
+*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #4343a0;
+}
+
+.nav-header a{
+    text-decoration: none;
+}
+
+.cor-vermelha{
+    color: red;
+}
+
+#header-pesquisa{
+    color: blue;
+}
+
+#header-pesquisa::placeholder{
+    color: green;
+}
+
+textarea{
+    resize: none;
+}
+.formulario-contato p, .formulario-contato h3{
+    font-size: 24pt;
+    border-radius: 15px;
+    box-shadow:springgreen 1px 20px 10px 1px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.negrito:hover{
+    color: blueviolet;
+}
+
+img:hover{
+    opacity: 1;
+}
